@@ -5,8 +5,6 @@ import PropertyCard from "./PropertyCard.jsx";
 const SimilarProperties = () => {
   const { properties } = useContext(PropertiesContext);
 
-  // console.log("Images: ",properties[0].images)
-
   const dummyData = {
     propertyId: 1,
     name: "123 Maple St",
@@ -63,8 +61,8 @@ const SimilarProperties = () => {
   );
 
   return (
-    <div className="mt-8">
-      <h1 className="font-semibold text-2xl mb-5 p-2 px-[75px]">
+    <div>
+      <h1 className="font-semibold text-2xl mb-5 p-2 px-[125px]">
         Similar Properties
       </h1>
 
@@ -74,9 +72,9 @@ const SimilarProperties = () => {
         ))}
       </div>
 
-      <div className="flex items-center justify-center gap-4 absolute left-[705px] bottom-[115px]">
+      <div className="flex items-center justify-center gap-4 absolute left-[700px] bottom-[25px]">
         <button
-          className="rounded-full font-semibold text-[#8947ff] border-2 border-[#8947ff] px-3 py-1 disabled:opacity-50"
+          className="rounded-full font-semibold text-white text-xl bg-[#8947ff] px-4 py-2 disabled:opacity-50"
           onClick={handlePrev}
           disabled={currentPage === 1}
         >
@@ -86,7 +84,7 @@ const SimilarProperties = () => {
           {currentPage}/{totalPages}
         </span>
         <button
-          className="rounded-full font-semibold text-[#8947ff] border-2 border-[#8947ff] px-3 py-1 disabled:opacity-50"
+          className="rounded-full font-semibold text-white text-xl bg-[#8947ff] px-4 py-2 disabled:opacity-50"
           onClick={handleNext}
           disabled={currentPage === totalPages}
         >

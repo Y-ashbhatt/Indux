@@ -1,7 +1,8 @@
 import DirectionClock from "./layouts/SearchSiderBar/_components/DirectionClock";
 import Home from "./pages/home/Home";
-import SimilarProperties from "./pages/plotView/_components/SimliarProperties";
+import SimilarPlot from "./pages/plotView/_components/SimliarPlot";
 import SellerProfile from "./pages/sellerProfile/SellerProfile";
+import SimilarProperties from "./pages/viewProperties/_components/SimilarProperties";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <Home /> */}
       {/* <SellerProfile /> */}
       {/* <DirectionClock /> */}
-      <SimilarProperties />
+      {/* <SimilarProperties /> */}
+      <SimilarPlot />
     </main>
   );
 }
