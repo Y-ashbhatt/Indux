@@ -1,15 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TrendingPage from "./_components/TrendingPage";
 import NewlyLaunched from "./_components/NewlyLaunched";
 import TopLocalities from "./_components/TopLocalities";
+import BuyNow from "./_components/BuyNow";
+import Experience from "./_components/Experience";
+import Articles from "./_components/Articles";
+import Elevate from "./_components/Elevate";
+import Testimonial from "./_components/Testimonial";
 
 const Home = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 2630) {
+        setAnimate(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
       <TrendingPage />
       <NewlyLaunched />
-      {/* There are two Top Localities carasousles ask which one to use  */}
       <TopLocalities />
+      <BuyNow />
+      <Experience />
+      <Articles />
+      <Elevate />
+      <Testimonial animate={animate} />
+      <div className="h-40 bg-purple-400"></div>
     </div>
   );
 };

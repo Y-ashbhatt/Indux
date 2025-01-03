@@ -7,11 +7,11 @@ import SimilarProperties from "./pages/viewProperties/_components/SimilarPropert
 function App() {
   return (
     <main>
-      {/* <Home /> */}
+      <Home />
       {/* <SellerProfile /> */}
       {/* <DirectionClock /> */}
       {/* <SimilarProperties /> */}
-      <SimilarPlot />
+      {/* <SimilarPlot /> */}
     </main>
   );
 }
