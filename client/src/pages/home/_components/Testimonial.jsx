@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 function Testimonial({ animate }) {
   return (
-    <div className="relative flex-flex-col justify-center items-center">
-      <img src={"/assets/TBg.png"} />
+    <div className="relative w-full flex-flex-col justify-center items-center">
+      <img className=" w-full" src={"/assets/TBg.png"} />
 
       <div className="absolute top-0  flex flex-col w-full h-full gap-10 justify-center">
         <motion.div
