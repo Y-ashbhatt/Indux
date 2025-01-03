@@ -185,7 +185,7 @@ const TrendingPage = () => {
                                                 </p>
                                             </motion.div>
 
-                                            <motion.div className='px-14 flex flex-wrap text-center absolute bottom-24'
+                                            {/* <motion.div className='px-14 flex flex-wrap text-center absolute bottom-24'
                                                         initial={{ opacity: 0 }}
                                                         animate={{ opacity: 1 }}
                                                         exit={{ opacity: 0 }}
@@ -224,7 +224,7 @@ const TrendingPage = () => {
                                                             in {item.city}</p>
                                                     </div>
                                                 </div>
-                                            </motion.div>
+                                            </motion.div> */}
                                         </>
                                     )
                                 ))
@@ -233,7 +233,7 @@ const TrendingPage = () => {
 
                         </div>
 
-                        <div className='flex items-center justify-center gap-4 absolute left-[1010px] bottom-[60px]'>
+                        {/* <div className='flex items-center justify-center gap-4 absolute left-[1010px] bottom-[60px]'>
                             <button
                                 className='rounded-full bg-white text-xl pb-1 font-semibold w-[32px] h-[32px] border border-gray-300 text-purple-700 disabled:opacity-50 transition-transform duration-150 active:scale-95'
                                 onClick={handlePrevBtn}
@@ -249,7 +249,7 @@ const TrendingPage = () => {
                             >
                                 &#62;
                             </button>
-                        </div>
+                        </div> */}
                     </Grid>
                 </Grid>
             </Box>
