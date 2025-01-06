@@ -20,7 +20,7 @@ function Articles() {
     <div className="relative w-full">
       <img className="relative w-full" src="/assets/TBg.png" />
 
-      <div className="absolute w-full top-8 left-8 text-white">
+      <div className="absolute w-fit top-8 left-8 text-white">
         <div className="flex flex-col gap-2 ml-12">
           <p className="lato text-sm">
             Useful For Defining Or Describing Specific Concepts
@@ -28,7 +28,7 @@ function Articles() {
           <p className="lato text-3xl">ARTICLES</p>
         </div>
 
-        <div className="w-full flex flex-row justify-center items-center gap-20 mx-10 mt-28">
+        <div className="max-w-full flex flex-row justify-center items-center gap-20 mx-10 mt-28">
           <div className="flex items-center justify-center">
             {/* Image  */}
 
