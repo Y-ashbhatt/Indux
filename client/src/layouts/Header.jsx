@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="relative">
+            <header className="relative ">
                 {location.pathname === '/' ? (
                     <div className=" bg-[#B0B0B0]/40 backdrop-blur-sm max-w-[97%] w-full rounded-full border-[0.5px] border-[#B0B0B0]/30 left-[25px]  mx-auto h-[70px] flex justify-between items-center px-12 absolute z-20 top-5">
                         <figure><img src="/Induxlogowhite.png" alt="" className="h-28" /> </figure>

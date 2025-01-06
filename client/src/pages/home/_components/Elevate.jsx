@@ -3,7 +3,7 @@ import React from "react";
 function Elevate() {
   return (
     //Start of Component
-    <div className=" font-lato h-[582px] flex flex-col gap-20">
+    <div className=" font-lato h-[582px] max-w-[1450px] flex flex-col mx-auto gap-20">
       {/* start of header section in component */}
       <div className="flex flex-col items-center pt-32 gap-2">
         <p className=" text-base font-[400]">ELEVATE YOUR JOURNEY</p>

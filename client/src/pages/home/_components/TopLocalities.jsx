@@ -73,7 +73,7 @@ const TopLocalities = () => {
 
   return (
     <>
-      <section className="carousel relative overflow-hidden py-14  px-[40px]  bg-white ">
+      <section className="carousel relative overflow-hidden max-w-[1450px] py-14 block mx-auto px-[40px]  bg-white ">
         <div className="max-w-[1200px] mt-10 ">
           <p className="mt-4 text-xl text-gray-800 font-semibold">
             Check out the top localities

@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 function Testimonial({ animate }) {
   return (
-    <div className="relative w-full flex-flex-col justify-center items-center">
-      <img className=" w-full" src={"/assets/TBg.png"} />
-
-      <div className="absolute top-0  flex flex-col w-full h-full gap-10 justify-center">
+    <div className=" bg-[url('/assets/TBg.png')] bg-cover bg-center h-full w-full flex-flex-col py-16 justify-center items-center">
+      {/* <img className=" w-full" src={"/assets/TBg.png"} /> */}
+         <p className="w-full text-center font-lato text-4xl text-white font-semibold mb-8">Testimonials</p>
+      <div className="  flex flex-col w-full h-full gap-10 justify-center">
         <motion.div
           className="flex justify-center items-center gap-5"
           initial={{ x: -500, opacity: 0 }}

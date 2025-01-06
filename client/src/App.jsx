@@ -14,7 +14,7 @@ import Header from "./layouts/Header";
 
 function App() {
   return (
-    <main className="max-w-[1450px] w-full block mx-auto overflow-hidden">
+    <main className=" w-full block mx-auto overflow-hidden">
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />

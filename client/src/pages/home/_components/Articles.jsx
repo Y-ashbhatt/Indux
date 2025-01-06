@@ -17,10 +17,10 @@ function Articles() {
   }, []);
 
   return (
-    <div className="relative w-full">
-      <img className="relative w-full" src="/assets/TBg.png" />
+    <div className="bg-[url('/assets/TBg.png')] bg-cover bg-center h-full w-full py-16">
+      {/* <img className="relative w-full" src="/assets/TBg.png" /> */}
 
-      <div className="absolute w-fit top-8 left-8 text-white">
+      <div className=" w-fit top-8 left-8 text-white mx-auto ">
         <div className="flex flex-col gap-2 ml-12">
           <p className="lato text-sm">
             Useful For Defining Or Describing Specific Concepts

@@ -1,6 +1,7 @@
 const BuyNow = () => {
   return (
-    <div className="h-216 bg-purple-200 flex flex-col pb-10">
+    <section className=" bg-purple-200 w-full">
+    <div className=" max-w-[1450px] h-full  flex flex-col mx-auto pb-10">
       <div className="pl-24 pt-10 pb-16">
         <p className="font-lato text-base">A Solid Foundation of Your Future</p>
         <p className="font-lato text-3xl font-bold">BUY NOW</p>
@@ -107,6 +108,7 @@ const BuyNow = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

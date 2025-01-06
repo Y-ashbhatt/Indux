@@ -101,7 +101,7 @@ const TrendingPage = () => {
     }, [propertyId]); // Dependency array to trigger effect
 
     return (
-        <div className="w-full h-full  pl-0 py-16">
+        <div className="max-w-[1450px] block mx-auto w-full h-full  pl-0 py-16">
             <div className='ml-20 mb-4 ' >
                 <p className='text-sm font-medium'>Best Projects of the year</p>
                 <h1 className='text-2xl font-semibold'>TRENDING PROJECTS</h1>

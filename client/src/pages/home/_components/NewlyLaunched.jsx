@@ -35,8 +35,8 @@ const NewlyLaunched = () => {
   };
 
   return (
-    <div className="relative">
-      <div className="bg-[#e2caff] w-full h-full py-9 px-16">
+    <div className="relative bg-[#e2caff] w-full ">
+      <div className=" max-w-[1450px] h-full py-9 px-16 block mx-auto">
         <p className="font-semibold">New launch on every seasons</p>
         <h1 className="text-3xl font-semibold">NEWLY LAUNCHED</h1>
 
