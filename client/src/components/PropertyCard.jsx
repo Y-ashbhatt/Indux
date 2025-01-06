@@ -4,7 +4,7 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 const PropertyCard = ({ property }) => {
   return (
-    <Card className="!bg-[#f3e9ff] h-[220px] w-[560px] text-black !rounded-lg flex">
+    <Card className="!bg-[#f3e9ff] h-[220px] w-[509px] text-black !rounded-lg mb-6 flex">
       <div className="p-3">
         <img className="h-48 w-52 rounded-lg" src={property.image} alt="" />
       </div>

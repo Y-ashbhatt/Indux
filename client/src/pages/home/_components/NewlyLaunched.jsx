@@ -1,4 +1,6 @@
 import React, { useContext, useState } from "react";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -34,11 +36,11 @@ const NewlyLaunched = () => {
 
   return (
     <div className="relative">
-      <div className="bg-[#e2caff] w-full h-screen py-8 px-16">
+      <div className="bg-[#e2caff] w-full h-full py-9 px-16">
         <p className="font-semibold">New launch on every seasons</p>
         <h1 className="text-3xl font-semibold">NEWLY LAUNCHED</h1>
 
-        <div className="py-4 px-28 pb-6 flex flex-wrap gap-8 items-center justify-between mt-8">
+        <div className="ml-10 py-4 px-10  flex flex-wrap justify-evenly items-center h-fit gap-4  mt-8">
           {currentPagePosts.map((item, index) => (
             <div key={index}>
               <PropertyCard property={item} />
@@ -48,23 +50,23 @@ const NewlyLaunched = () => {
 
         {/*Pagination*/}
 
-        <div className="flex items-center justify-center gap-4 absolute left-[700px] bottom-[25px]">
+        <div className="flex items-center justify-center my-7 gap-4 ">
           <button
-            className="rounded-full font-semibold text-xl text-purple-700 bg-gray-200 px-4 py-2 disabled:opacity-50"
+            className="rounded-full font-semibold text-xl text-purple-700 bg-gray-200  w-[42px] h-[42px]  disabled:opacity-50"
             onClick={handlePrev}
             disabled={currentPage === 1}
           >
-            &#60;
+            <NavigateBeforeIcon/>
           </button>
           <span>
             {currentPage}/{totalPages}
           </span>
           <button
-            className="rounded-full font-semibold text-xl text-purple-700 bg-gray-200 px-4 py-2 disabled:opacity-50"
+            className="rounded-full font-semibold text-xl text-purple-700 bg-gray-200  w-[42px] h-[42px]  disabled:opacity-50"
             onClick={handleNext}
             disabled={currentPage === totalPages}
           >
-            &#62;
+            <NavigateNextIcon/>
           </button>
         </div>
       </div>

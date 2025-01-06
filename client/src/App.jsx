@@ -4,8 +4,8 @@ import SimilarPlot from "./pages/plotView/_components/SimliarPlot";
 import SellerProfile from "./pages/sellerProfile/SellerProfile";
 import ViewHostel from "./pages/viewHostel/viewHostel";
 import SimilarProperties from "./pages/viewProperties/_components/SimilarProperties";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./layouts/Header";
+import Footer from "./layouts/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       {/* <DirectionClock /> */}
       {/* <SimilarProperties /> */}
       {/* <SimilarPlot /> */}
-      <ViewHostel />
+      {/* <ViewHostel /> */}
       <Footer/>
     </main>
   );

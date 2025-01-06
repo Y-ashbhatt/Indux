@@ -35,7 +35,7 @@ const Home = () => {
       <Articles />
       <Elevate />
       <Testimonial animate={animate} />
-      <div className="h-40 bg-purple-400"></div>
+      {/* <div className="h-40 bg-purple-400"></div> */}
     </div>
   );
 };
