@@ -7,10 +7,11 @@ import ViewHostel from "./pages/viewHostel/viewHostel";
 import SimilarProperties from "./pages/viewProperties/_components/SimilarProperties";
 import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
+import BuyProperties from "./pages/buyProperties/BuyProperties";
 
 function App() {
   return (
-    <main className="max-w-[1450px] w-full block mx-auto overflow-auto">
+    <main>
       <Header />
       <Router>
         <Routes>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/similar-properties" element={<SimilarProperties />} />
           <Route path="/similar-plot" element={<SimilarPlot />} />
           <Route path="/view-hostel" element={<ViewHostel />} />
+          <Route path="/buy-properties" element={<BuyProperties />} />
         </Routes>
       </Router>
       <Footer />
