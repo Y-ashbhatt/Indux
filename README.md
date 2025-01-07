@@ -1,6 +1,6 @@
-<h1>Contributing to [Project Name]</h1>
+<h1>Contributing to Indux Properties</h1>
 
-<p>Thank you for your interest in contributing to this project! Follow the steps below to get started.</p>
+<p>To contributeg to this project follow the steps below to get started.</p>
 
 <hr>
 
