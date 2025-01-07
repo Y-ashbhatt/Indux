@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DirectionClock from "./layouts/SearchSiderBar/_components/DirectionClock";
 import Home from "./pages/home/Home";
 import SimilarPlot from "./pages/plotView/_components/SimliarPlot";
@@ -10,14 +11,18 @@ import Footer from "./layouts/Footer";
 function App() {
   return (
     <main className="max-w-[1450px] w-full block mx-auto overflow-auto">
-      <Header/>
-      <Home />
-      {/* <SellerProfile /> */}
-      {/* <DirectionClock /> */}
-      {/* <SimilarProperties /> */}
-      {/* <SimilarPlot /> */}
-      {/* <ViewHostel /> */}
-      <Footer/>
+      <Header />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/seller-profile" element={<SellerProfile />} />
+          <Route path="/direction-clock" element={<DirectionClock />} />
+          <Route path="/similar-properties" element={<SimilarProperties />} />
+          <Route path="/similar-plot" element={<SimilarPlot />} />
+          <Route path="/view-hostel" element={<ViewHostel />} />
+        </Routes>
+      </Router>
+      <Footer />
     </main>
   );
 }
