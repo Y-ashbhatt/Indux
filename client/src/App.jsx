@@ -11,6 +11,7 @@ import RentProperty from "./pages/RentProperty/RentProperty";
 import ListProperty from "./pages/ListProperty/ListProperty";
 import PageNotFound from "./layouts/PageNotFound";
 import Header from "./layouts/Header";
+import BuyProperties from "./pages/buyProperties/BuyProperties";
 
 function App() {
   return (
