@@ -1,6 +1,6 @@
 <h1>Contributing to Indux Properties</h1>
 
-<p>To contributeg to this project follow the steps below to get started.</p>
+<p>To contribute to this project follow the steps below to get started.</p>
 
 <hr>
 
@@ -56,6 +56,23 @@
     <li>Choose your fork and branch, then provide a title and description for the PR.</li>
     <li>Submit the pull request for review.</li>
 </ol>
+<hr>
+<h2>🚀 How to Use the Project Locally</h2>
+
+<ol>
+    <li>After cloning the repository, navigate to the <code>client</code> directory:
+        <pre><code>cd client</code></pre>
+    </li>
+    <li>Install the required dependencies:
+        <pre><code>npm install</code></pre>
+    </li>
+    <li>Start the development server:
+        <pre><code>npm run dev</code></pre>
+    </li>
+    <li>Open your browser and navigate to the provided URL (usually <code>http://localhost:3000</code>).</li>
+</ol>
+
+
 
 <hr>
 
@@ -121,21 +138,6 @@ Fixes #42
 
 <hr>
 
-<h2>🚀 How to Use the Project Locally</h2>
 
-<ol>
-    <li>After cloning the repository, navigate to the <code>client</code> directory:
-        <pre><code>cd client</code></pre>
-    </li>
-    <li>Install the required dependencies:
-        <pre><code>npm install</code></pre>
-    </li>
-    <li>Start the development server:
-        <pre><code>npm run dev</code></pre>
-    </li>
-    <li>Open your browser and navigate to the provided URL (usually <code>http://localhost:3000</code>).</li>
-</ol>
-
-<hr>
 
 <p>Feel free to reach out if you have any questions or need further assistance! 😊</p>
