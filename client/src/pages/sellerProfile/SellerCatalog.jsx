@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Box, Card, Avatar, Typography, Button, Grid } from "@mui/material";
-import dummySellerData from "./dummySellerData";
+import dummySellerData from "../../data/dummySellerData";
 
 const SellerCatalog = () => {
   return (

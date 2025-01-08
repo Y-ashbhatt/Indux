@@ -12,7 +12,7 @@ import {
   IconButton,
 } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
-import dummySellerData from "./dummySellerData";
+import dummySellerData from "../../data/dummySellerData";
 
 const EditSellerProfile = () => {
   const { id } = useParams(); // Get seller ID from URL

@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { Box, Card, Avatar, Typography, Button } from "@mui/material";
-import dummySellerData from "./dummySellerData";
+import dummySellerData from "../../data/dummySellerData";
 
 const DisplaySellerProfile = () => {
   const { id } = useParams(); // Get seller ID from URL
